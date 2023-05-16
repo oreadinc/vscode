@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Products from '../components/Products'
+---
+
+<Layout title="Home" desc="BLAH BLAH BLAH">
+	<section class="w-9/12 mx-auto">
+		<h1 class="text-center">All Products</h1>
+		<Products client:load />
+	</section>
+</Layout>
